@@ -89,6 +89,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 Enjoy the quiz! 🎉
 ```
 
----
-
-Let me know if you'd like to personalize this with your GitHub username, project name, or add screenshots!
