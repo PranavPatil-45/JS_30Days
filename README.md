@@ -76,6 +76,10 @@ const quizData = [
 - Store high scores using `localStorage`
 - Support for different quiz categories or difficulty levels
 
+
+https://github.com/user-attachments/assets/ebdf7b53-84ed-41c6-83de-2228b0b39d4c
+
+
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
