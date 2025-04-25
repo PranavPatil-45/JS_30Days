@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #00fff7;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00fff7, 0 0 10px #00fff7;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#question {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#answer-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #38ef7d;
+}
+
+.correct {
+    background-color: #4caf50 !important;
+    color: #fff;
+    box-shadow: 0 0 10px #4caf50;
+}
+
+.incorrect {
+    background-color: #f44336 !important;
+    color: #fff;
+    box-shadow: 0 0 10px #f44336;
+}
+
+#next-btn {
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #00c6ff;
+    display: none;
+}
+
+#next-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #0072ff;
+}
