@@ -20,6 +20,10 @@ A simple **Add to Cart** feature built using **HTML**, **CSS**, and **JavaScript
 
 ---
 
+https://github.com/user-attachments/assets/57df4557-4be2-4c16-aa89-85df94525619
+
+
+
 ## 📂 Project Structure
 
 ```
