@@ -1,5 +1,5 @@
 # JS_30Days
-Here's a sample `README.md` file for your Quiz Website project, written in a clean and professional style that you can directly use in your GitHub repository:
+
 
 ---
 
@@ -90,13 +90,12 @@ Enjoy the quiz! 🎉
 ```
 
 
-Of course! Here's a neat and clear `README.md` file you can use for your **Add to Cart** project:
 
 ---
 
 # 🛒 Add to Cart Project
 
-A simple **Add to Cart** feature built using **HTML**, **CSS**, and **JavaScript** — perfect for practicing DOM manipulation, event handling, and UI interactivity.
+
 
 ---
 
